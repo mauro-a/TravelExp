@@ -6,7 +6,7 @@ export const GET_STORY_BY_ID = 'GET_STORY_BY_ID';
 const ROOT_URL = 'http://localhost:3000/travels';
 
 export function fetchStories() {
-	const request = axios.get('http://localhost:3000/travels');
+	const request = axios.get(ROOT_URL);
 	return {
 		type: FETCH_STORIES,
 		payload: request

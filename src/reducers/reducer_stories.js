@@ -7,7 +7,7 @@ export default function(state = INITIAL_STATE, action) {
 		case FETCH_STORIES:
 			return { ...state, all: action.payload.data };
 		case GET_STORY_BY_ID:
-			return { ...state, story: action.payload.data };
+			return { ...state, story: action.payload.data[0] };
 		default: 
 			return state;
 	}
