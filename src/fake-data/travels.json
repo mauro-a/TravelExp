@@ -1,15 +1,16 @@
 {
   "travels": [
-    { "id": 1, "title": "Nepal", "author": "John Doe", "content": "lorem ipsum lorem ipsum" },
-
-    { "id": 2, "title": "China", "author": "John McLoving", "content": "lorem ipsum lorem ipsum" },
-
-    { "id": 3, "title": "Norway", "author": "John McJourney", "content": "lorem ipsum lorem ipsum" },
-
-    { "id": 4, "title": "Belgium", "author": "John McFuck", "content": "lorem ipsum lorem ipsum" },
-
-    { "id": 5, "title": "Monaco", "author": "John Dumb", "content": "lorem ipsum lorem ipsum" },
-    
-    { "id": 6, "title": "Chicago", "author": "John Dumb", "content": "lorem ipsum lorem ipsum" }
+    {
+      "id": 1,
+      "title": "Nepal",
+      "author": "John Doe",
+      "content": "lorem ipsum lorem ipsum"
+    },
+    {
+      "title": "A trip to Africa",
+      "author": "Mauro",
+      "content": "Lorem ipsum",
+      "id": 3
+    }
   ]
 }

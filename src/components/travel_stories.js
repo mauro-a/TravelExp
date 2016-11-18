@@ -21,9 +21,11 @@ class TravelStories extends Component {
 			);
 		});
 	}
+
 	render() {
 		return (
 			<div>
+				<Link className="btn btn-primary" to="/travels/new">New story</Link>
 				<h3>Travel Stories</h3>
 				<ul className="list-group">
 					{this.renderStories()}
