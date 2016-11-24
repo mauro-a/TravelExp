@@ -1,16 +1,10 @@
 {
   "travels": [
     {
-      "id": 1,
-      "title": "Nepal",
-      "author": "John Doe",
-      "content": "lorem ipsum lorem ipsum"
-    },
-    {
-      "title": "A trip to Africa",
+      "title": "Working in LA",
       "author": "Mauro",
       "content": "Lorem ipsum",
-      "id": 3
+      "id": 1
     }
   ]
 }
